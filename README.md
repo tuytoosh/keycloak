@@ -2,6 +2,12 @@
 
 Keycloak is an open source identity and access management solution. In this repo you can see pre-configured setup for Keycloak + Postgres and instructions to enable TSL for it.
 
+## Create a docker network
+
+```
+docker network create testnet
+```
+
 ## To issue TSL with OpenSSL 
 
 In order to make SSL self-signed keys run the following commands:
